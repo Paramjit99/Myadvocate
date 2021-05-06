@@ -1,4 +1,4 @@
-var Car_Names = [
+var crime_name = [
     "MURDER",
     "KIDNAP",
     "ROBBERY",
@@ -12,11 +12,11 @@ var Car_Names = [
   let wordStatus = null;
   
   function randomWord() {
-    answer = Car_Names[Math.floor(Math.random() * Car_Names.length)];
+    answer = crime_name[Math.floor(Math.random() * crime_name.length)];
   }
   
   function generateButtons() {
-    let buttonsHTML = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map(letter =>
+    let buttonsHTML = 'abcdefghijklmnopqrstuvwxyz'.split('').map(letter =>
       `
         <button
           class="btn btn-lg btn-primary m-2"
