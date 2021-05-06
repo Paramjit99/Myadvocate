@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>HANG MAN GAME</title>
+
+    <link rel="icon" href="IMAGES/car_icon.png" type="car_icon/jpg">
+
+    <link rel="stylesheet" href="CSS/project.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+   <!-- Bootstrap 4 CDN -->
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="styling.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="homeheader">
+    
+    <h1>My Advocate</h1>
+    <a href="index.html"><img class="logo" src="logo3.jpg"></a>
+    <p></p>
+  </div>
+  
+    
+
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="catagories.html">Categories</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hanmanfinal.html">Hangman</a></li>
+      </ul>
+    
+    
+
+   
+        <br>
+            <div class="container">
+                <h1 class="text-center">Hangman</h1>
+                <div class="float-right">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+                <div class="text-center">
+                  <img id='hangmanPic' src="0.jpeg" alt="">
+                  <p>Guess the offences:</p>
+                  <p id="wordSpotlight">The word to be guessed goes here</p>
+                  <div id="keyboard"></div>
+                  <button class="btn btn-info" onClick="reset()">Restart</button>
+                  <br>
+                  <br>
+                  <br>
+                </div> 
+              </div>
+              
+              <script src='hangman.js'></script>
+              
+        </form>
+        <footer>
+       
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </footer>
+    
+</body>
+</html>
